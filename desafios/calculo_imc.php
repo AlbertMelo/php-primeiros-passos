@@ -12,4 +12,4 @@ if ($imc < 18.5) {
 } else {
     echo "acima ";
 }
-echo "do peso.";
+echo "do recomendado.";
