@@ -2,7 +2,7 @@
 
 $idadeLista = [21, 23, 19, 25, 30, 41, 18];
 
-for ($i = 0; $i < 7; $i++) {
+for ($i = 0; $i < count($idadeLista); $i++) {
     echo $idadeLista[$i] . PHP_EOL;
     
 }
