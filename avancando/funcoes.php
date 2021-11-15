@@ -2,7 +2,8 @@
 
 function exibeMensagem(string $mensagem)
 {
-    echo $mensagem . PHP_EOL;
+    // echo $mensagem . PHP_EOL;
+    echo $mensagem . '<br>';
 }
 
 function sacar(array &$conta, float $valorASacar)
@@ -22,4 +23,11 @@ function depositar(array &$conta, float $valorADepositar)
         exibeMensagem("Depósitos precisam ser positivos");
     }
 }
+
+function exibeConta(array $conta)
+{
+    echo "<li>Titular: $conta[titular]. Saldo: {$conta['saldo']}</li>";
+}
+
+?>
 
